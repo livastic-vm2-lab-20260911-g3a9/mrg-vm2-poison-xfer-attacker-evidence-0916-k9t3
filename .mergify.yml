@@ -1,10 +1,1 @@
-pull_request_rules:
-  - name: vm2 xfer poisoned destination close
-    conditions:
-      - author = livastic-vm2-primary-20260911
-      - base = main
-      - title = VM2_XFER_POISON_VICTIM_K9T3
-    actions:
-      comment:
-        message: VM2-XFER-POISON-CROSS-TENANT-K9T3
-      close: {}
+pull_request_rules: []
